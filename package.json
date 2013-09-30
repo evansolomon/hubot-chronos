@@ -1,0 +1,28 @@
+{
+  "name": "hubot-chronos",
+  "version": "0.0.1",
+  "description": "Schedule cron-like jobs for hubot commands.",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evansolomon/hubot-chronos.git"
+  },
+  "keywords": [
+    "hubot",
+    "cron",
+    "chronos"
+  ],
+  "author": "Evan Solomon",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "~1.0.1"
+  },
+  "devDependencies": {
+    "should": "~1.3.0",
+    "mocha": "~1.13.0",
+    "coffee-script": "~1.6.3",
+    "hubot": "~2.6.3"
+  }
+}
