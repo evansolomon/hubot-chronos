@@ -4,7 +4,7 @@ hubot = require 'hubot'
 class hubot.TextMessage
   constructor: (@user, @text, @id) ->
 
-{ChronosJob} = require '../src/chronos'
+{ChronosJob} = require '../'
 
 should = require 'should'
 
