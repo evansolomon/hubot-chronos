@@ -1,5 +1,7 @@
 # Hubot Chronos
 
+[![Build Status](https://secure.travis-ci.org/evansolomon/hubot-chronos.png?branch=master)](http://travis-ci.org/evansolomon/hubot-chronos)
+
 A cron-ish scheduling system for Hubot commands.
 
 ### Install
