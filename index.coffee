@@ -130,7 +130,7 @@ class ChronosJob
       @save()
       @robot.logger.info "Created job with info:\n#{jobInfo}"
     catch e
-      @robot.logger.warn "Failed to creat job with info:\n#{jobInfo}"
+      @robot.logger.warn "Failed to create job with info:\n#{jobInfo}"
 
 
   ####################################################
